@@ -191,3 +191,14 @@ Progress Bars
 #upper{text-align: center;}
 
 .space30{height: 30px;}
+.space90{height: 90px;}
+/* hobby */
+.s2{text-align: center;}
+
+/* Contact */
+
+.type1{text-decoration: underline;}
+
+#cfooter{display: flex;
+		justify-content: space-evenly;}
+

@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid" id="hobby">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="#">Cousin François</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -52,7 +52,7 @@
                         <a class="nav-link" href="hobby.html">Hobby</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -63,25 +63,45 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
+            <div class="col-lg-12 carousel-inner">
+                <div class="offset-lg-2 col-lg-8 carousel-item active">
                     <img class="d-block w-100" src="images/freepik.com_banque-dimages-gratuites_tombreton.jpg" alt="First slide">
                 </div>
-                <div class="carousel-item">
+                <div class="offset-lg-2 col-lg-8 carousel-item">
                     <img class="d-block w-100" src="images/letouquet.png" alt="Second slide">
                 </div>
-                <div class="carousel-item">
+                <div class="offset-lg-2 col-lg-8 carousel-item">
                     <img class="d-block w-100" src="images/neige.jpg" alt="Third slide">
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+        </div>
+        <div class="space90"></div>
+        <div class="row">
+            <div class="offset-lg-1 col-lg-2 s2" id="music-div">
+                <i class="fas fa-music fa-5x"></i>
+                <div class="space30"></div>
+                <p>Musique</p>
+            </div>
+            <div class="col-lg-2 s2" id="techno-div">
+                <i class="fas fa-desktop fa-5x"></i>
+                <div class="space30"></div>
+                <p>Technologie</p>
+            </div>
+            <div class="col-lg-2 s2" id="film-div">
+                <i class="fas fa-film fa-5x"></i>
+                <div class="space30"></div>
+                    <p>Film</p>
+            </div>
+            <div class="col-lg-2 s2" id="film-div">
+                    <i class="fas fa-camera fa-5x"></i>
+                <div class="space30"></div>
+                <p>Photographies</p>
+            </div>
+            <div class="col-lg-2 s2" id="film-div">
+                <i class="fas fa-map-marked-alt fa-5x"></i>
+                <div class="space30"></div>
+                <p>Géocoaching</p>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
