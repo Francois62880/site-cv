@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
         crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -19,10 +19,10 @@
     <script src="script.js"></script>
 </head>
 
-<body>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Cousin François</a>
+<body id="contact">
+    <div class="container-fluid" >
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <a class="navbar-brand" id="nav1" href="index.html">Cousin François</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -77,10 +77,10 @@
                         <a href="https://www.linkedin.com/feed/"><i class="fab fa-linkedin fa-2x"></i></a> 
                     </div>
                 </div>
-
+                
                 <div class="offset-lg-1 col-lg-6">
-                    <div class="section noprint" id="contact">
-                        <h2 class="section-title text-center">Contactez-moi</h2>
+                    <div class="section noprint">
+                        <h2 class="section-title ct1">Contactez-moi</h2>
 
                         <div class="alert alert-info">
                             <button type="button" class="close" data-dismiss="alert">×</button>
@@ -90,25 +90,25 @@
 
                         <form method="post" action="php/sendmail.php" class="well form-horizontal">
                             <fieldset>
-                                <legend>Adressez-moi un message en utilisant le formulaire ci-dessous :</legend>
+                                <legend><h4 class="ct1"> Adressez-moi un message en utilisant le formulaire ci-dessous :</h4></legend>
 
                                 <div class="form-row">
                                     <div class="form-group col-md-6">
-                                        <label for="inputEmail4">Nom</label>
-                                        <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+                                        <label for="inputName" class="ct2">Nom</label>
+                                        <input type="text" class="form-control" id="inputName" placeholder="Name">
                                     </div>
                                     <div class="form-group col-md-6">
-                                        <label for="inputPassword4">email</label>
-                                        <input type="email" class="form-control" id="inputPassword4" placeholder="Email">
+                                        <label for="inputEmail" class="ct2">email</label>
+                                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <label for="inputAddress">Sujet</label>
-                                    <input type="text" class="form-control" id="inputAddress" placeholder="Sujet">
+                                    <label for="inputSujet" class="ct2">Sujet</label>
+                                    <input type="text" class="form-control" id="inputSujet" placeholder="Sujet">
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="inputMessage">Message:</label>
+                                    <label for="inputMessage" class="ct2">Message:</label>
                                     <textarea class="form-control" rows="5" id="inputMessage" placeholder="Message"></textarea>
                                 </div>
                     </div>
@@ -119,8 +119,7 @@
                     </fieldset>
 
                     </form>
-                </div>
-
+                </div>                
             </div>
         </div>
 
