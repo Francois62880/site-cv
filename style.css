@@ -201,11 +201,13 @@ Progress Bars
 	}
 
 /* hobby */
-#hobby{background: url(images/ordinateur-portable-et-appareil-photo-fond-d-ecran-2560x1600-12422_7.jpg);
+#hobby{background: url(images/Designer-Wallpaper-Background-12.png);
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;}
 #upper{text-align: center;}
+
+.theme{color:gold}
 
 .space30{height: 30px;}
 .space90{height: 90px;}
