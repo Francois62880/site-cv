@@ -14,7 +14,23 @@ justify-content: space-evenly;}
     background-size: cover;
     background-position: fixed;}
 
-/*
+/* 
+accueil
+****************************************/
+.ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+.ml3 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+/* 
 Progress Bars
 *********************************/
 
@@ -189,9 +205,11 @@ Progress Bars
 	transition-duration: 3s;
   }
 
-  /* image parallax */
-  .paral {
-    min-height: 600px;
+/* 
+image parallax 
+**********************/
+.paral {
+    min-height: 300px;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
@@ -214,7 +232,9 @@ Progress Bars
 /* hobby */
 .s2{text-align: center;}
 
-/* Contact */
+/* 
+Contact 
+***********************/
 #contact{background: url(images/téléchargement.jpg);
 	background-repeat: no-repeat;
     background-size: cover;
