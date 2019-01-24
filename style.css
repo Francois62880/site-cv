@@ -13,6 +13,10 @@ justify-content: space-evenly;}
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;}
+#footer{border-top: 2px solid black;}
+#footer>p{width: 100%;
+    text-align: center;}
+.wh{color: #fff}
 
 /* 
 accueil
@@ -27,6 +31,13 @@ accueil
 Progress Bars
 *********************************/
 
+
+.main_title_container{display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-end;
+    border: 5px solid black;
+    border-radius: 10px;}
 .skills
 {
 	width: 100%;
@@ -211,11 +222,13 @@ image parallax
 	background-image: url("images/wallpaper-parallax1.jpg");
 	}
 
-/* hobby */
+/* hobby 
+**********************************************************/
 #hobby{background: url(images/Designer-Wallpaper-Background-12.png);
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;}
+
 #upper{text-align: center;}
 
 .theme{color:gold;
@@ -223,12 +236,24 @@ image parallax
 
 .space30{height: 30px;}
 .space90{height: 90px;}
-/* hobby */
+
+/* 
+portfolio
+***********************/
+.paral1 {
+    min-height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+	}
+.paralsec1 {
+	background-image: url("images/portal_developmen.jpg");
+	}
 
 /* 
 Contact 
 ***********************/
-#contact{background: url(images/téléchargement.jpg);
+#contact{background: url(images/368828.jpg);
 	background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;}
@@ -253,14 +278,12 @@ Contact
      color:goldenrod; 
      text-decoration: none;
      position: fixed;
-    top: 250px; 
+    top: 350px; 
     text-shadow: 10px 10px 2px black}
      #accueil{background: url(images/bckg.png);
         background-repeat: no-repeat;
         /* background-size: cover; */
         background-position: fixed;}
-       
-        .fa.fa-navicon{color: #fff}
     .theme>i{font-size: 40px;}
     .inter{height: 30px;}
       }
