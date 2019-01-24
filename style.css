@@ -17,19 +17,12 @@ justify-content: space-evenly;}
 /* 
 accueil
 ****************************************/
-.ml2 {
-    font-weight: 900;
-    font-size: 3.5em;
-  }
-  
-  .ml2 .letter {
-    display: inline-block;
-    line-height: 1em;
-  }
-.ml3 {
-    font-weight: 900;
-    font-size: 3.5em;
-  }
+ @font-face{font-family:"vintage"; src: url(VintageParty-FreeVersion.ttf);}
+.typewrite {font-family: "vintage";
+    font-size: 75px;
+     color:black; text-decoration: none;
+     position: fixed;
+     bottom: 225px;}
 /* 
 Progress Bars
 *********************************/
@@ -225,12 +218,12 @@ image parallax
     background-position: fixed;}
 #upper{text-align: center;}
 
-.theme{color:gold}
+.theme{color:gold;
+    text-align: center;}
 
 .space30{height: 30px;}
 .space90{height: 90px;}
 /* hobby */
-.s2{text-align: center;}
 
 /* 
 Contact 
@@ -254,3 +247,21 @@ Contact
 	border-radius: 10px;
 	color: rgb(30,144,255)}
 
+@media screen and (max-width: 640px) {
+    .typewrite {
+        font-size: 50px;
+     color:goldenrod; 
+     text-decoration: none;
+     position: fixed;
+    top: 250px; 
+    text-shadow: 10px 10px 2px black}
+     #accueil{background: url(images/bckg.png);
+        background-repeat: no-repeat;
+        /* background-size: cover; */
+        background-position: fixed;}
+       
+        .fa.fa-navicon{color: #fff}
+    .theme>i{font-size: 40px;}
+    .inter{height: 30px;}
+      }
+    
