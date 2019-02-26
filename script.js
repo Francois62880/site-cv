@@ -1,4 +1,4 @@
-// intro
+/************************* Intro ****************************************/
 
 $(function(){
     var welcomeSection = $('.welcome-section'),
@@ -13,16 +13,9 @@ $(function(){
     })
 })
 
-// bar de progression
+/************************* accueil ****************************************/
 
-$(document).ready(function() {
-	$('.progress .progress-bar').css("width",
-			  function() {
-				  return $(this).attr("aria-valuenow") + "%";
-			  }
-	  )
-  });
-  var TxtType = function(el, toRotate, period) {
+var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
     this.loopNum = 0;
@@ -73,3 +66,25 @@ window.onload = function() {
         }
     }
 };
+
+/************************* Compétences ****************************************/
+
+// bar de progression
+
+$(document).ready(function() {
+	$('.progress .progress-bar').css("width",
+			  function() {
+				  return $(this).attr("aria-valuenow") + "%";
+			  }
+	  )
+  });
+
+
+/************************* contact ****************************************/
+$(function(){
+    $("#button").click(function(){
+       $("#blockContact").hide(800);
+       $('#blockadress').addClass("mouve");
+       $('#info').text("Cette fonctionnalité évoluera avec ma formation. Merci de votre compréhension.")
+    })
+})
