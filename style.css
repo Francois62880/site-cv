@@ -529,6 +529,8 @@ image parallax
         animation-duration: 1s;
         animation-fill-mode: forwards;
     }
+    #cfooter{display: flex;
+      justify-content: space-evenly;}
 @keyframes mouve {
         from {
           transform: translateX(0px);
