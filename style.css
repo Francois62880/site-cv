@@ -487,7 +487,8 @@ image parallax
     text-shadow: 10px 10px 2px black}
     #accueil{background: url(images/androidpit-computer-developer-1.jpg);
     background-repeat: no-repeat;
-    background-position: fixed;}
+    background-position: fixed;
+  }
     /* Compétences */
     
     
