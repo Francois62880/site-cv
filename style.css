@@ -520,7 +520,7 @@ image parallax
     text-shadow: 1px 1px 2px black;
     font-weight: bold;
     position: fixed;
-    top: 100px; 
+    top: 75px; 
   }
   /* .typewrite {
         font-size: 50px;
