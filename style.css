@@ -82,7 +82,7 @@ justify-content: space-evenly;}
 .wh{color: #fff}
 
 /************************* accueil ****************************************/
-#str {
+#str,#str1,#str2 {
   width: 80%;
   padding: 20px;
   height: auto;
